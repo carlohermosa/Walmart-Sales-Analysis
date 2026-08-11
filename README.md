@@ -84,3 +84,24 @@ This project will answer the following questions:
 16. Write business recommendations
 17. Export cleaned data and results
 18. Prepare the project for portfolio use
+
+## Skills Practiced
+
+This project will practice:
+
+- pandas DataFrames
+- CSV importing
+- data inspection
+- missing-value analysis
+- duplicate detection
+- data-type conversion
+- datetime manipulation
+- feature engineering
+- groupby
+- aggregation
+- sorting and ranking
+- descriptive statistics
+- correlation analysis
+- time-series analysis
+- data visualization with Matplotlib
+- business insight generation
