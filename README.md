@@ -22,3 +22,15 @@ The available variables include:
 - Fuel_Price — Fuel price during the week
 - CPI — Consumer Price Index
 - Unemployment — Unemployment rate
+
+- ## Project Objective
+
+The main objective of this project is to evaluate Walmart's historical weekly sales performance and determine which factors are associated with changes in sales.
+
+The analysis will focus on:
+
+- identifying the strongest and weakest stores
+- understanding how sales change over time
+- comparing holiday and non-holiday sales
+- identifying periods of unusually high or low sales
+- examining relationships between weekly sales and external factors such as temperature, fuel prices, CPI, and unemployment
