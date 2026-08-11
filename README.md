@@ -62,3 +62,25 @@ This project will answer the following questions:
 11. What is the relationship between unemployment and weekly sales?
 
 12. Which external factors appear to have the strongest relationship with weekly sales?
+
+
+## Project Workflow
+
+1. Define the business problem
+2. Understand the dataset
+3. Load the dataset
+4. Inspect the dataset
+5. Check data quality
+6. Clean the data
+7. Transform and engineer features
+8. Perform exploratory data analysis
+9. Calculate key sales metrics
+10. Analyze store performance
+11. Analyze sales trends over time
+12. Analyze holiday effects
+13. Analyze external economic factors
+14. Create visualizations
+15. Summarize key findings
+16. Write business recommendations
+17. Export cleaned data and results
+18. Prepare the project for portfolio use
