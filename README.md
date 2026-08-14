@@ -4,6 +4,8 @@
 
 This project analyzes historical Walmart weekly sales data using **Python and Pandas** to identify store performance, sales trends, seasonal patterns, holiday effects, sales variability, and relationships between sales and external economic factors.
 
+The dataset used for this project was obtained from **Kaggle**, a platform that provides datasets and resources for data science and machine learning projects.
+
 The analysis follows a complete data analytics workflow, including:
 
 * Data inspection and validation
@@ -26,9 +28,13 @@ The goal of the project is to transform raw sales data into actionable business 
 
 ## 📊 Dataset
 
+The dataset used in this project was sourced from **Kaggle**.
+
+**Source:** Kaggle — Walmart Sales Dataset by Mikhail1681
+
 The dataset contains historical weekly sales information for **45 Walmart stores**.
 
-**Dataset size:**
+### Dataset Size
 
 * **6,435 rows**
 * **8 original columns**
@@ -48,7 +54,7 @@ The dataset contains historical weekly sales information for **45 Walmart stores
 | `CPI`          | Consumer Price Index                                |
 | `Unemployment` | Unemployment rate                                   |
 
-**Data Source:** Kaggle — Walmart Sales Dataset by Mikhail1681.
+> **Dataset Credit:** The original dataset was obtained from Kaggle and is used in this project for educational and portfolio purposes.
 
 ---
 
@@ -196,7 +202,7 @@ Store 20 generated approximately **$2.11 million in average weekly sales**.
 
 # 📉 Sales Variability
 
-Two measures were used to evaluate sales variability:
+Two measures were used to evaluate sales variability.
 
 ### Standard Deviation
 
@@ -346,46 +352,32 @@ The project includes several Matplotlib visualizations:
 * Unemployment vs. weekly sales scatter plot
 * External-factor correlation comparison
 
-These visualizations make it easier to identify performance differences, seasonality, volatility, and potential relationships between variables.
-
 ---
 
 # 💡 Key Findings
 
 1. **Store 20 was the strongest-performing store**, generating approximately **$301.40M** in total sales.
-
 2. **Holiday weeks performed better**, generating approximately **7.8% higher average sales** than non-holiday weeks.
-
-3. **Strong year-end seasonality was observed**, with November and December consistently producing some of the highest sales.
-
-4. **December 2010 and December 2011 were the strongest monthly periods**, averaging approximately **$58M in weekly sales** across all stores.
-
-5. **Store 35 had the greatest relative sales variability**, with a coefficient of variation of approximately **23%**.
-
-6. Average weekly sales declined slightly between the observed years, although partial-year data prevents a complete year-over-year comparison.
-
-7. **External economic variables showed weak correlations with sales.**
-
-8. Overall, **store-level differences, holidays, and seasonal patterns were more strongly reflected in sales performance than the external economic variables examined individually**.
+3. **Strong year-end seasonality was observed**, particularly during November and December.
+4. **December 2010 and December 2011 were the strongest monthly periods.**
+5. **Store 35 had the greatest relative sales variability.**
+6. External economic variables showed relatively weak linear correlations with weekly sales.
+7. Store-level differences, holidays, and seasonal patterns were more strongly reflected in sales performance than the external variables examined individually.
 
 ---
 
 # 💼 Business Recommendations
 
-Based on the analysis:
-
-* **Increase inventory and staffing during November and December** to prepare for historically stronger demand.
-* Use **Stores 20 and 4 as internal performance benchmarks** and investigate operational factors that may contribute to their strong sales.
-* Investigate stores with high relative variability, particularly **Store 35**, to determine whether fluctuations are caused by promotions, local demand, seasonality, or operational factors.
-* Include **holiday indicators in future forecasting models** because holiday weeks were associated with higher average sales.
-* Avoid relying on individual economic indicators such as unemployment, CPI, fuel prices, or temperature alone when forecasting sales.
-* Future predictive models should combine **store-level characteristics, seasonality, holiday information, and economic variables**.
+* Increase inventory and staffing during **November and December**.
+* Use **Stores 20 and 4 as internal performance benchmarks**.
+* Investigate highly variable stores, particularly **Store 35**.
+* Include holiday indicators in future forecasting models.
+* Avoid relying on individual economic indicators alone when forecasting sales.
+* Combine **store characteristics, seasonality, holidays, and external factors** in future predictive models.
 
 ---
 
 # 📁 Exported Analysis Files
-
-The notebook exports analytical results to CSV files for further analysis or dashboard development:
 
 ```text
 store_sales_ranking.csv
@@ -396,12 +388,12 @@ holiday_sales_analysis.csv
 external_factor_correlations.csv
 ```
 
-These outputs can be reused in:
+These files can be used for further analysis in:
 
 * Power BI
 * Excel
 * Tableau
-* Additional Python analysis
+* Python
 * Predictive modeling
 
 ---
@@ -412,10 +404,10 @@ These outputs can be reused in:
 
 ```bash
 git clone <your-repository-url>
-cd <repository-folder>
+cd walmart-sales-analysis
 ```
 
-### 2. Install the required Python libraries
+### 2. Install the required libraries
 
 ```bash
 pip install pandas numpy matplotlib
@@ -433,16 +425,13 @@ If running the project locally rather than on Kaggle, update the dataset path in
 
 # 🚀 Future Improvements
 
-Potential extensions to this project include:
-
-* Build a **Power BI dashboard** using the exported analytical tables
+* Build a **Power BI dashboard**
 * Perform store-level seasonal analysis
 * Compare individual holiday periods
 * Develop a sales forecasting model
 * Apply multiple linear regression
 * Evaluate feature importance
-* Test interactions between economic and seasonal variables
-* Create predictive models using machine learning
+* Create machine-learning models
 * Develop an automated sales analytics pipeline
 
 ---
@@ -451,10 +440,12 @@ Potential extensions to this project include:
 
 **Carlo Villahermosa**
 
-Aspiring Data Analyst with interests in data analytics, business intelligence, financial analysis, Python, SQL, and Power BI.
+Aspiring Data Analyst with interests in **Python, SQL, Power BI, business intelligence, and financial analysis**.
 
 ---
 
 ## ⭐ About This Project
 
-This project was created as part of my data analytics portfolio to demonstrate my ability to use Python to clean, analyze, visualize, and interpret real-world business data and translate analytical results into practical business recommendations.
+This project was created as part of my data analytics portfolio to demonstrate my ability to clean, analyze, visualize, and interpret real-world business data.
+
+The original dataset was sourced from **Kaggle**, while the data cleaning, statistical analysis, visualizations, interpretation, and business recommendations presented in this repository were completed as part of this portfolio project.
