@@ -190,7 +190,7 @@ Compares average company-wide weekly sales across the observed years.
 
 Compares the Pearson correlation coefficients between weekly sales and the external variables.
 
-![External-Factor Correlations](images/All%20External-Factor%20Correlations.png)
+![External-Factor Correlations](images/External-Factor%20Correlations.png)
 
 ### Unemployment vs Weekly Sales
 
