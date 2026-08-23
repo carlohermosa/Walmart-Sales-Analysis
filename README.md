@@ -242,7 +242,7 @@ Walmart_Sales_Analysis/
 │   └── yearly_sales_analysis.csv
 │
 └── images/
-    ├── All External-Factor Correlations.png
+    ├── External-Factor Correlations.png
     ├── Average Weekly Sales by Month.png
     ├── Holiday vs Non-Holiday Sales.png
     ├── Top 10 Stores by Relative Sales Variability.png
